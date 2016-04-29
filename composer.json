@@ -1,0 +1,19 @@
+{
+	"name": "peterbodnar.com/bsqr-coder",
+	"description": "bysquare data encoding and parsing utils",
+	"keywords": ["bysquare", "paybysquare", "invoicebysquare"],
+	"license": ["BSD-3-Clause", "GPL-2.0", "GPL-3.0"],
+	"require": {
+		"php": "^5.4 || ^7.0",
+		"peterbodnar.com/base32": "^1.0",
+		"peterbodnar.com/cmd": "^1.0"
+	},
+	"require-dev": {
+		"nette/tester": "^1.7"
+	},
+	"autoload": {
+		"psr-4": {
+			"com\\peterbodnar\\bsqrcoder\\": "src/"
+		}
+	}
+}
